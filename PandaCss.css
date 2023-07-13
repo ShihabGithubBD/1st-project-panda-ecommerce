@@ -1,0 +1,340 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+/* Navigation Bar */
+
+.MenuList{
+    display:flex;
+    list-style-type:none;
+    gap: 0px 10px
+}
+.MenuList li a{
+    text-decoration: none;
+    font-size:large;
+    color:rgb(166, 166, 236);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.MenuList li a:hover{
+    background-color: blue;
+    color:white;
+    transition: 1s ease-in-out;
+}
+.HeaderFlex{
+    display:flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding:5px 80px;
+    gap: 25px
+}
+/* Banner Area Here */
+
+.BannerArea{
+    display:flex;
+    padding: 0px 30px;
+    margin: 0px 80px;
+    align-items:center;
+    background-color: pink;
+}
+.BannerImage{
+    width: 250px;
+}
+.TextArea{
+    width:70%;
+}
+.ImageArea{
+    width:30%;
+}
+.name1{
+    font-size:18px;
+    padding: 10px 0px;
+}
+.price{
+    color:orangered;
+    font-size: 30px;
+}
+.BuyNow{
+    background-color: #ff4a92;
+    border: none;
+    padding: 4px 10px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.text1{
+    font-size: 40px;
+}
+/* 1st Selction Area */
+
+.SelectionArea{
+    display:flex;
+    margin: 20px 80px;
+    justify-content: space-between;
+    height: 100px;
+}
+.one{
+    display:flex;
+    align-items: center;
+    background-color: yellow;
+    padding: 5px 10px;
+    width: 31%;
+    justify-content: space-between;
+}
+.two{
+    display:flex;
+    align-items: center;
+    background-color: green;
+    padding: 5px 10px;
+    width: 31%;
+    justify-content: space-between;
+}
+.three{
+    display:flex;
+    align-items: center;
+    background-color: aqua;
+    padding: 5px 10px;
+    width: 31%;
+    justify-content: space-between;
+}
+.imgone{
+    width:75px;
+}
+.imgtwo{
+    width:75px;
+}
+.imgthree{
+    width:75px;
+}
+.SaText1{
+    font-size: 40px;
+}
+.SaText2{
+    font-size: 40px;
+}
+.SaText3{
+    font-size: 40px;
+}
+
+
+/* Body Shoes Section Area */
+
+.ShoesAreaa{
+    padding:0px 80px;
+    
+}
+.ParentArea{
+    display:flex;
+    gap: 0px 12px;
+}
+.one1{
+    background-color: rgb(236, 229, 229);
+    padding: 20px 15px;
+    width: 47%;
+    
+}
+.one2{
+    background-color: rgb(236, 229, 229);
+    padding: 20px 15px;
+    width: 47%;
+}
+.one3{
+    background-color: rgb(236, 229, 229);
+    padding: 20px 15px;
+    width: 47%;
+}
+
+.shoe1{
+    width:350px
+}
+.SBuyNow1{
+    border: none;
+    background-color: #ff4a92;
+    padding: 4px 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: 15px 0px 0px 0px;
+}
+.SText1{
+    font-size:22px
+}
+
+.ptext1{
+    font-size: 18px
+}
+.shoe2{
+    width:350px;
+}
+.SText2{
+    font-size:22px;
+}
+.ptext2{
+    font-size: 18px;
+}
+.SBuyNow2{
+    border:none;
+    background-color:#ff4a92;
+    padding: 4px 10px;
+    font-size:15px;
+    border-radius:3px;
+    margin: 98px 0px 0px 0px;
+}
+.shoe3{
+    width:350px;
+}
+.SText3{
+    font-size:18px;
+}
+.ptext3{
+    font-size: 18px;
+}
+.SBuyNow3{
+    border:none;
+    background-color:#ff4a92;
+    padding: 4px 10px;
+    font-size:15px;
+    border-radius:3px;
+    margin: 102px 0px 0px 0px;
+}
+
+.S{
+    font-size: 30px;
+}
+
+/* Body Backpack Section Area */
+
+.BagAreaa{
+    padding:0px 80px;
+
+}
+.BagParent{
+    display:flex;
+    gap: 0px 12px;
+    
+
+}
+
+.Bag1{
+    width:350px;
+}
+.BuyBag1{
+    border:none;
+    background-color: #ff4a92;
+    padding: 4px 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: 48px 0px 0px 0px;
+}
+.Bag2{
+    width:350px;
+}
+.BuyBag2{
+    border:none;
+    background-color: #ff4a92;
+    padding: 4px 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: 73px 0px 0px 0px;
+}
+.Bag3{
+    width:350px;
+}
+.BuyBag3{
+    border:none;
+    background-color: #ff4a92;
+    padding: 4px 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: 30px 0px 0px 0px;
+}
+.B{
+    font-size: 30px;
+    margin: 25px 0px 0px 0px;
+
+}
+.one01{
+    background-color: rgb(236, 229, 229);
+    padding: 20px 15px;
+    width: 47%;
+}
+.one02{
+    background-color: rgb(236, 229, 229);
+    padding: 20px 15px;
+    width: 47%;
+}
+.one03{
+    background-color: rgb(236, 229, 229);
+    padding: 20px 15px;
+    width: 47%;
+}
+.BText1{
+    font-size:18px;
+}
+.BText2{
+    font-size:18px;
+}
+.BText3{
+    font-size:18px;
+}
+.BPText1{
+    font-size:18px;
+}
+.BPText2{
+    font-size:18px;
+}
+.BPText3{
+    font-size:18px;
+}
+
+/* About Section here */
+
+.AboutArea{
+    padding:0px 80px;
+}
+.OList{
+    list-style-type:none;
+}
+.DIV1{
+    text-align: center;
+    background-color: pink;
+    height: 150px;
+    padding: 20px;
+    margin: 30px 0px 0px 0px;
+    
+}
+.LI1{
+    font-size:26px;
+}
+.LI2{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 0px 0px 0px;
+}
+.LI3{
+    margin: 5px 0px 0px 0px;
+}
+.LI4{
+    margin: 5px 0px 0px 0px;
+
+}
+.LButton{
+    margin:5px 0px 0px 0px;
+    border: none;
+    background-color: #ff4a92;
+    padding: 10px 5px;
+    border-radius: 3px;
+}
+.MAIL{
+    margin:5px 0px 0px 0px;
+    height: 30px;
+    width: 300px;
+}
+
+/* Footer Area Here */
+
+.last{
+    margin: 20px 0px 10px 0px;
+    padding:0px 80px;
+    height: 50px;
+    text-align: center;
+}
